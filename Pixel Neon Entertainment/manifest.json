@@ -1,0 +1,27 @@
+{
+  "name": "Pixel Neon Entertainment",
+  "short_name": "Pixel Neon",
+  "description": "Oyun, mobil uygulama ve web geliştirme stüdyosu.",
+  "lang": "tr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#050508",
+  "theme_color": "#0a0a0f",
+  "categories": ["entertainment", "productivity", "developer"],
+  "icons": [
+    {
+      "src": "pixelneon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "pixelneon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
