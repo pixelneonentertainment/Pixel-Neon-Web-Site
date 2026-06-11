@@ -100,8 +100,6 @@ Live Site
 🌐 pixelneon.com.tr
 
 Contact
-ChannelLinkEmailpixelneon@yandex.com
-GitHub@pixelneonentertainment
-Instagram@pixelneonentertainment
-
+ChannelLinkEmailpixelneon@yandex.comGitHub@pixelneonentertainmentInstagram@pixelneonentertainment
+ChannelLinkGitHub@pixelneonentertainment
 © 2026 Pixel Neon Entertainment. All rights reserved.
