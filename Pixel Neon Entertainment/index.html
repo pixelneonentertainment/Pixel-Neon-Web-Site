@@ -7,16 +7,30 @@
 
     <!-- SEO -->
     <meta name="description" content="Pixel Neon Entertainment — oyun tasarımı, mobil uygulama, web geliştirme ve masaüstü yazılım. Yenilikçi ve yaratıcı dijital deneyimler.">
-    <meta name="keywords" content="Pixel Neon Entertainment, oyun geliştirme, Unity, mobil uygulama, web tasarım, Görkem Akkaya, cyberpunk, yazılım">
+    <meta name="keywords" content="Pixel Neon Entertainment, oyun geliştirme, Unity, mobil uygulama, web tasarım, Görkem Akkaya, cyberpunk, yazılım, P Downloader, Görsel Yönetici, C# WPF, React Native, Windows uygulaması">
     <meta name="author" content="Görkem Akkaya — Pixel Neon Entertainment">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#0a0a0f">
     <link rel="canonical" href="https://pixelneon.com.tr/">
 
+    <!-- GEO (Generative Engine Optimization) -->
+    <meta name="geo.region" content="TR">
+    <meta name="geo.placename" content="Türkiye">
+    <meta name="dc.language" content="tr">
+    <meta name="subject" content="Oyun Geliştirme, Mobil Uygulama, Web Geliştirme, Masaüstü Yazılım">
+    <meta name="classification" content="Yazılım Geliştirme, Dijital Stüdyo">
+    <meta name="category" content="Teknoloji, Yazılım, Oyun">
+    <meta name="coverage" content="Worldwide">
+    <meta name="revisit-after" content="7 days">
+    <!-- Yapay zeka motorları için öz tanım -->
+    <meta name="abstract" content="Pixel Neon Entertainment, Görkem Akkaya tarafından 2026'da kurulmuş bağımsız bir Türk dijital stüdyosudur. Unity/C# oyun geliştirme, React Native mobil uygulamalar, web geliştirme ve C#/WPF Windows masaüstü yazılımları üretmektedir. Tamamlanan ürünler arasında P Downloader (cyberpunk temalı indirme yöneticisi) ve Görsel Yönetici (Windows resim yönetimi uygulaması) bulunmaktadır.">
+
     <!-- PWA -->
     <link rel="manifest" href="manifest.json">
 
-    <!-- Yapılandırılmış Veri (SEO / Google) -->
+    <!-- Yapılandırılmış Veri (SEO / GEO) -->
+
+    <!-- 1) Organization -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -24,10 +38,19 @@
       "name": "Pixel Neon Entertainment",
       "url": "https://pixelneon.com.tr/",
       "logo": "https://pixelneon.com.tr/pixelneon.png",
-      "description": "Oyun tasarımı, mobil uygulama, web ve masaüstü yazılım geliştiren bağımsız dijital stüdyo.",
-      "founder": { "@type": "Person", "name": "Görkem Akkaya" },
+      "description": "Görkem Akkaya tarafından kurulan bağımsız dijital stüdyo. Unity ve C# ile oyun geliştirme, React Native ile mobil uygulama, HTML/CSS/JS ile web ve C#/WPF ile Windows masaüstü yazılımı üretmektedir.",
+      "founder": {
+        "@type": "Person",
+        "name": "Görkem Akkaya",
+        "jobTitle": "Kurucu & Baş Geliştirici",
+        "knowsAbout": ["Unity", "C#", "WPF", "React Native", "HTML", "CSS", "JavaScript", "Python", "Oyun Geliştirme", "Mobil Uygulama Geliştirme"]
+      },
+      "foundingDate": "2026",
+      "areaServed": "TR",
+      "knowsAbout": ["Oyun Geliştirme", "Mobil Uygulama", "Web Geliştirme", "Masaüstü Yazılım", "Unity", "C#", "WPF", "React Native"],
       "sameAs": [
-       https://github.com/pixelneonentertainment"
+        "https://github.com/pixelneonentertainment",
+        "https://www.instagram.com/pixelneonentertainment/"
       ],
       "contactPoint": {
         "@type": "ContactPoint",
@@ -38,19 +61,174 @@
     }
     </script>
 
+    <!-- 2) WebSite (Sitelinks Searchbox için) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Pixel Neon Entertainment",
+      "url": "https://pixelneon.com.tr/",
+      "description": "Pixel Neon Entertainment resmi web sitesi — oyun, mobil, web ve masaüstü yazılım portföyü.",
+      "inLanguage": ["tr", "en"],
+      "author": {
+        "@type": "Person",
+        "name": "Görkem Akkaya"
+      }
+    }
+    </script>
+
+    <!-- 3) Hizmetler — ItemList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Pixel Neon Entertainment Hizmetleri",
+      "description": "Pixel Neon Entertainment'ın sunduğu yazılım geliştirme hizmetleri",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Oyun Tasarımı",
+          "description": "Unity ve Unreal Engine ile 2D ve 3D oyun geliştirme hizmeti. Fikir aşamasından yayına kadar tam kapsamlı oyun üretimi."
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Mobil Uygulama Geliştirme",
+          "description": "React Native ile iOS ve Android platformları için çok platformlu yüksek performanslı mobil uygulama geliştirme."
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web Geliştirme",
+          "description": "HTML5, CSS3 ve JavaScript kullanarak etkileşimli ve modern web uygulamaları geliştirme."
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Masaüstü Yazılım Geliştirme",
+          "description": "C# ve WPF ile Windows platformu için güçlü masaüstü uygulamaları geliştirme."
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "UI/UX Tasarım",
+          "description": "Oyunlar ve uygulamalar için fütüristik, kullanıcı dostu arayüz ve deneyim tasarımı."
+        }
+      ]
+    }
+    </script>
+
+    <!-- 4) Projeler — SoftwareApplication -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "P Downloader",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Windows",
+      "description": "Cyberpunk temalı gelişmiş WPF indirme yöneticisi. HTTP, FTP, Torrent ve Magnet bağlantı desteği; çoklu parça indirme, ultra hız modu, SQLite geçmişi, Google Drive ve OneDrive entegrasyonu, FTP tarayıcı, şifreli arşiv açma ve 6 neon tema.",
+      "author": {
+        "@type": "Organization",
+        "name": "Pixel Neon Entertainment"
+      },
+      "programmingLanguage": ["C#", "WPF", ".NET 10"],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "TRY"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Görsel Yönetici",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Windows",
+      "description": "Windows için geliştirilmiş resim yönetimi ve görsel işleme masaüstü uygulaması. Toplu görsel yönetimi, hızlı dosya taşıma ve düzenleme özellikleri içerir.",
+      "author": {
+        "@type": "Organization",
+        "name": "Pixel Neon Entertainment"
+      },
+      "programmingLanguage": ["C#", "Windows Forms"],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "TRY"
+      }
+    }
+    </script>
+
+    <!-- 5) SSS / FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pixel Neon Entertainment ne tür yazılımlar geliştiriyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pixel Neon Entertainment; Unity ve Unreal Engine ile oyun geliştirme, React Native ile iOS/Android mobil uygulamalar, HTML/CSS/JavaScript ile web siteleri ve C#/WPF ile Windows masaüstü yazılımları geliştiren bağımsız bir dijital stüdyodur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pixel Neon Entertainment'ı kim kurdu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pixel Neon Entertainment, yazılım geliştirici Görkem Akkaya tarafından 2026 yılında kurulmuştur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "P Downloader nedir ve nasıl indirilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "P Downloader, Pixel Neon Entertainment tarafından geliştirilen cyberpunk temalı bir Windows indirme yöneticisidir. HTTP, FTP, Torrent ve Magnet bağlantı destekler. pixelneon.com.tr adresinden ücretsiz indirilebilir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pixel Neon Entertainment ile nasıl iletişime geçilir?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "pixelneon@yandex.com adresi üzerinden e-posta göndererek veya pixelneon.com.tr/contact sayfasındaki iletişim formu aracılığıyla ulaşabilirsiniz. WhatsApp ve Instagram üzerinden de iletişim kurulabilmektedir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pixel Neon Entertainment hangi teknolojileri kullanıyor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Kullanılan başlıca teknolojiler: Unity, Unreal Engine, C#, WPF, .NET, React Native, JavaScript, HTML5, CSS3, Python, SQL, Node.js, Docker ve AWS."
+          }
+        }
+      ]
+    }
+    </script>
+
     <!-- EmailJS (çalışan iletişim formu için) -->
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
     <!-- Open Graph / Sosyal Paylaşım -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Pixel Neon Entertainment">
-    <meta property="og:description" content="Oyun, mobil uygulama ve web geliştirme stüdyosu. Dijital geleceği şekillendiriyoruz.">
-    <meta property="og:image" content="pixelneon.png">
+    <meta property="og:site_name" content="Pixel Neon Entertainment">
+    <meta property="og:title" content="Pixel Neon Entertainment — Oyun, Mobil & Web Geliştirme Stüdyosu">
+    <meta property="og:description" content="Görkem Akkaya tarafından kurulan bağımsız dijital stüdyo. Unity ile oyun geliştirme, React Native ile mobil uygulama, HTML/CSS/JS ile web ve C#/WPF ile Windows masaüstü yazılımı. P Downloader ve Görsel Yönetici gibi ücretsiz araçlar sunar.">
+    <meta property="og:image" content="https://pixelneon.com.tr/pixelneon.png">
+    <meta property="og:url" content="https://pixelneon.com.tr/">
     <meta property="og:locale" content="tr_TR">
+    <meta property="og:locale:alternate" content="en_US">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Pixel Neon Entertainment">
-    <meta name="twitter:description" content="Oyun, mobil uygulama ve web geliştirme stüdyosu.">
-    <meta name="twitter:image" content="pixelneon.png">
+    <meta name="twitter:site" content="@pixelneonentertainment">
+    <meta name="twitter:title" content="Pixel Neon Entertainment — Oyun, Mobil & Web Geliştirme Stüdyosu">
+    <meta name="twitter:description" content="Bağımsız dijital stüdyo. Oyun, mobil uygulama, web ve Windows masaüstü yazılımı. P Downloader ücretsiz indir.">
+    <meta name="twitter:image" content="https://pixelneon.com.tr/pixelneon.png">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="pixelneon.png">
@@ -2140,6 +2318,69 @@
 
     <a href="#home" class="skip-link">İçeriğe geç</a>
 
+    <!-- ===== GEO İÇERİK BLOĞU =====
+         Arama motorları ve yapay zeka tarama botları için makine tarafından okunabilen özet.
+         Görsel olarak gizlenmiştir; erişilebilirlik ve GEO açısından aktif içeriktir.
+    -->
+    <div id="geo-summary" aria-hidden="true" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">
+      <h1>Pixel Neon Entertainment — Bağımsız Dijital Stüdyo</h1>
+      <p>
+        Pixel Neon Entertainment, 2026 yılında yazılım geliştirici Görkem Akkaya tarafından kurulan Türkiye merkezli bağımsız bir dijital stüdyodur.
+        Stüdyo; oyun geliştirme, mobil uygulama, web geliştirme ve Windows masaüstü yazılımları alanlarında hizmet vermektedir.
+      </p>
+      <section>
+        <h2>Hizmetler</h2>
+        <ul>
+          <li><strong>Oyun Geliştirme:</strong> Unity ve Unreal Engine kullanılarak 2D ve 3D oyun geliştirme. Prototipten yayına kadar tam kapsamlı üretim.</li>
+          <li><strong>Mobil Uygulama Geliştirme:</strong> React Native ile iOS ve Android platformları için çok platformlu mobil uygulama.</li>
+          <li><strong>Web Geliştirme:</strong> HTML5, CSS3 ve JavaScript ile etkileşimli, modern web siteleri ve uygulamalar.</li>
+          <li><strong>Masaüstü Yazılım Geliştirme:</strong> C# ve WPF/.NET ile Windows platformu için masaüstü uygulamaları.</li>
+          <li><strong>UI/UX Tasarım:</strong> Fütüristik ve kullanıcı dostu arayüz tasarımı.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Tamamlanan Projeler</h2>
+        <ul>
+          <li>
+            <strong>P Downloader</strong> — Windows için cyberpunk temalı gelişmiş indirme yöneticisi.
+            HTTP, FTP, Torrent ve Magnet bağlantı desteği, çoklu parça indirme, ultra hız modu,
+            SQLite geçmişi, Google Drive ve OneDrive entegrasyonu, şifreli ZIP/RAR/7Z açma,
+            6 neon tema ve Türkçe/İngilizce/Almanca dil desteği sunar.
+            C#, WPF ve .NET 10 ile geliştirilmiştir. Ücretsiz olarak indirilebilir.
+          </li>
+          <li>
+            <strong>Görsel Yönetici</strong> — Windows için toplu resim yönetimi ve görsel işleme masaüstü uygulaması.
+            Hızlı dosya taşıma, düzenleme, hafif ve kullanıcı dostu arayüz özellikleri sunar. Ücretsizdir.
+          </li>
+          <li>
+            <strong>Pixel Neon Web Sitesi</strong> — Saf HTML, CSS ve JavaScript ile yazılmış cyberpunk temalı portfolyo sitesi.
+            PWA desteği, çevrimdışı çalışma, Türkçe/İngilizce dil seçeneği içerir.
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Kullanılan Teknolojiler</h2>
+        <p>Unity, Unreal Engine, C#, WPF, .NET 10, React Native, JavaScript, HTML5, CSS3, Python, SQL, Node.js, Docker, AWS, REST API, OAuth.</p>
+      </section>
+      <section>
+        <h2>İletişim</h2>
+        <p>E-posta: pixelneon@yandex.com | GitHub: github.com/pixelneonentertainment | Instagram: @pixelneonentertainment | Web: pixelneon.com.tr</p>
+      </section>
+      <section>
+        <h2>Sıkça Sorulan Sorular</h2>
+        <dl>
+          <dt>Pixel Neon Entertainment ne tür yazılımlar geliştiriyor?</dt>
+          <dd>Oyun (Unity/Unreal), iOS/Android mobil uygulamalar (React Native), web siteleri (HTML/CSS/JS) ve Windows masaüstü yazılımları (C#/WPF) geliştirmektedir.</dd>
+          <dt>P Downloader ücretsiz mi?</dt>
+          <dd>Evet, P Downloader pixelneon.com.tr adresinden ücretsiz indirilebilir.</dd>
+          <dt>Pixel Neon Entertainment ile iletişime nasıl geçilir?</dt>
+          <dd>pixelneon@yandex.com adresi veya site üzerindeki iletişim formu ile ulaşabilirsiniz.</dd>
+          <dt>Pixel Neon'u kim kurdu?</dt>
+          <dd>Görkem Akkaya tarafından 2026 yılında kurulmuştur.</dd>
+        </dl>
+      </section>
+    </div>
+
     <div class="toast-container" id="toastContainer" aria-live="polite"></div>
 
     <!-- ========== KONTROL PANELİ ========== -->
@@ -2248,10 +2489,10 @@
         </div>
 
         <div class="hero-content">
-            <h1 class="hero-title">
+            <h1 class="hero-title" aria-label="Pixel Neon Entertainment — Oyun, Mobil ve Web Geliştirme Stüdyosu">
                 <span class="pixel" data-text="Pixel">Pixel</span> <span class="neon" data-text="Neon">Neon</span>
             </h1>
-            <p class="hero-subtitle">Entertainment</p>
+            <p class="hero-subtitle" aria-label="Entertainment">Entertainment</p>
             <div class="typewriter-wrapper">
                 <span class="typewriter-text"></span>
             </div>
@@ -2478,7 +2719,14 @@
     </section>
 
     <footer>
-        <p>&copy; <span id="copyrightYear">2027</span> <span class="neon-text">Pixel Neon Entertainment</span>. <span data-i18n="footer_rights">Tüm hakları saklıdır.</span></p>
+        <p>&copy; <span id="copyrightYear"></span> <span class="neon-text">Pixel Neon Entertainment</span>. <span data-i18n="footer_rights">Tüm hakları saklıdır.</span></p>
+        <p style="font-size:0.75rem;color:#555;margin-top:6px;">
+            <span itemscope itemtype="https://schema.org/Organization">
+                <span itemprop="name">Pixel Neon Entertainment</span> —
+                <span itemprop="founder" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Görkem Akkaya</span></span> |
+                <a itemprop="url" href="https://pixelneon.com.tr" style="color:#555;text-decoration:none;">pixelneon.com.tr</a>
+            </span>
+        </p>
         <div class="visit-counter"><i class="fas fa-signal"></i> <span data-i18n="visits_label">Ziyaret</span>: <span class="num" id="visitNum">—</span></div>
     </footer>
 
@@ -4404,10 +4652,12 @@
             });
         });
 
+        document.getElementById('copyrightYear').textContent = new Date().getFullYear();
+
         // ========== ZİYARETÇİ SAYACI ==========
         // Genel/global sayaç için GoatCounter (https://goatcounter.com) ücretsiz hesabı önerilir.
         // Hesap açıp kodunu aldıktan sonra aşağıdaki GOATCOUNTER_CODE değerini doldur.
-        const GOATCOUNTER_CODE = ''; // örn: 'pixelneon'
+        const GOATCOUNTER_CODE = 'pixelneon';
         (function visitorCounter() {
             const el = document.getElementById('visitNum');
             if (GOATCOUNTER_CODE) {
