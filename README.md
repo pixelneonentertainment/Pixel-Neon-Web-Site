@@ -101,5 +101,5 @@ Live Site
 
 Contact
 ChannelLinkEmailpixelneon@yandex.comGitHub@pixelneonentertainmentInstagram@pixelneonentertainment
-ChannelLinkGitHub@pixelneonentertainment
+
 © 2026 Pixel Neon Entertainment. All rights reserved.
