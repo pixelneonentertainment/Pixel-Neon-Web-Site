@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://pixelneon.com.tr/sitemap.xml
